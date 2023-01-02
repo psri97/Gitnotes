@@ -1,0 +1,47 @@
+1.what is version control system?
+code should stored somewhere and should be managed in a efficient manner.
+each and every change will be recorded as commit 
+
+2.what are the most popular VCS systems available?
+- SVN - Outdated -- Optional
+- GitHub
+- Bitbucket
+- GitLab
+
+3.why do we need this VCS systems?
+
+- To Oraganize the code in a better way
+- Tracking code changes
+
+4.What is GitHub?
+
+- GitHub is a VCS where we can store our code. 
+
+5. What is Repository?
+
+- Repository is place where we can commit our code in GitHub
+
+6. What are the types of repos in GitHub?
+
+- Local Repo
+- Remote Repo are following two types:
+	They are 1. Public Repository
+		 2. Private Repository
+
+- GitHub 
+	- it is a distributed system and it will be available across all the machines.
+	
+echo "# Practice" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/psri97/Practice.git
+git push -u origin main
+
+git remote add origin https://github.com/psri97/Practice.git
+git branch -M main
+git push -u origin main
+
+
+/c/Users/dell/.ssh/id_rsa
